@@ -28,12 +28,40 @@ function quiz() {
 	
 	var frage, antwort, eingabe;
 	
-	var frage = "Was ist meine Lieblingsfarbe? \n a) Blau \n b) Rot \n c) Grün \n d) Braun"; // CHANGE THIS. First question
-	var antwort = "c"; // CHANGE THIS. First answer
+	var frage = " Was ist der Hauptzweck des Befehls ls? \n a) Datein loeschen \n b) Datein auflisten \n c) Datein kopieren \n d) Datein verschrieben"; // CHANGE THIS. First question
+	var antwort = "b"; // CHANGE THIS. First answer
 	if (askQuestion(vorherigerRaum, zeitVerlustMinuten, frage, antwort)) { return };
 	
-	var frage = "Was ist meine Lieblingszahl? \n a) 1 \n b) 2 \n c) 3 \n d) 42"; // CHANGE THIS. Second question
+	var frage = "Welcher Befehl wird verwendet, um den aktuellen Arbeitsordner anzuzeigen? \n a) pwd \n b) cd \n c) ls \n d) mkdir"; // CHANGE THIS. Second question
+	var antwort = "c"; // CHANGE THIS. Second answer
+	if (askQuestion(vorherigerRaum, zeitVerlustMinuten, frage, antwort)) { return };
+
+	var frage = "Was bedeutet chmod in Linux? \n a) Ändern des Dateinamens \n b) Ändern der Berechtigungen einer Datei \n c) Ändern des Verzeichnisses \n d) Ändern des Benutzers"; // CHANGE THIS. Second question
 	var antwort = "b"; // CHANGE THIS. Second answer
+	if (askQuestion(vorherigerRaum, zeitVerlustMinuten, frage, antwort)) { return };
+	
+	var frage = "Welcher Befehl wird verwendet, um eine Datei zu kopieren? \n a) cp \n b) mv \n c) rm \n d) touch"; // CHANGE THIS. Second question
+	var antwort = "a"; // CHANGE THIS. Second answer
+	if (askQuestion(vorherigerRaum, zeitVerlustMinuten, frage, antwort)) { return };
+
+	var frage = "Was ist der Zweck des Befehls grep? \n a) Suchen nach Text in Dateien \n b) Löschen von Dateien \n c) Erstellen von Verzeichnissen \n d) Anzeigen von Systeminformationen"; // CHANGE THIS. Second question
+	var antwort = "a"; // CHANGE THIS. Second answer
+	if (askQuestion(vorherigerRaum, zeitVerlustMinuten, frage, antwort)) { return };
+	
+	var frage = "Wie kann man alle laufenden Prozesse in Linux anzeigen? \n a) ps aux \n b) top \n c) listproc \n d) showprocess"; // CHANGE THIS. Second question
+	var antwort = "a"; // CHANGE THIS. Second answer
+	if (askQuestion(vorherigerRaum, zeitVerlustMinuten, frage, antwort)) { return };
+
+	var frage = "Was ist das Standardverzeichnis für Benutzerdaten in Linux? \n a) /etc \n b) /home \n c) /usr \n d) /var"; // CHANGE THIS. Second question
+	var antwort = "b"; // CHANGE THIS. Second answer
+	if (askQuestion(vorherigerRaum, zeitVerlustMinuten, frage, antwort)) { return };
+
+	var frage = "Welcher Befehl wird verwendet, um ein neues Verzeichnis zu erstellen? \n a) mkdir \n b) rmdir \n c) touch \n d) newdir"; // CHANGE THIS. Second question
+	var antwort = "b"; // CHANGE THIS. Second answer
+	if (askQuestion(vorherigerRaum, zeitVerlustMinuten, frage, antwort)) { return };
+
+	var frage = "Was macht der Befehl rm -rf? \n a) Kopiert eine Datei \n b) Verschiebt eine Datei \n c) Löscht eine Datei sicher \n d) Löscht ein Verzeichnis und seinen Inhalt rekursiv"; // CHANGE THIS. Second question
+	var antwort = "d"; // CHANGE THIS. Second answer
 	if (askQuestion(vorherigerRaum, zeitVerlustMinuten, frage, antwort)) { return };
 	
 	// Insert more questions using the previous template here.
